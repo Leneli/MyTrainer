@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>My Trainer</title>
+
+    <link rel="stylesheet" href="lib/winjs-4.0.1/css/ui-light.css" />
+    <link rel="stylesheet" href="css/default.css" />
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/underscore-min.js"></script>
+    <script src="lib/backbone-min.js"></script>
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="win-type-body">
+    <div id="app">
+        <div class="splitView" data-win-control="WinJS.UI.SplitView">
+            <!-- Pane area -->
+            <div>
+                <div class="header">
+                    <button class="win-splitviewpanetoggle"
+                            data-win-control="WinJS.UI.SplitViewPaneToggle"
+                            data-win-options="{ splitView: select('.splitView') }"></button>
+                </div>
+
+                <div class="nav-commands">
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Diary', icon: 'document'}"></div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Create/Edit', icon: 'edit'}"></div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Statistics', icon: 'important'}"></div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ label: 'Info', icon: 'help'}"></div>
+                </div>
+            </div>
+
+            <!-- Content area -->
+            <div class="contenttext"><h2 class="win-h2">Content area</h2> </div>
+
+            <!--AppBar-->
+            <!-- BEGINTEMPLATE: Template code for an AppBar -->
+            <div id="createAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdAdd',label:'Add',icon:'clock',tooltip:'Add item',section:'content',position:'left',type:'flyout',flyout:select('#addFlyout'),onclick:Sample.outputCommand}"></button>
+
+                <hr data-win-control="WinJS.UI.AppBarCommand"
+                    data-win-options="{id:'separator',
+        type:'separator',
+        section:'primary'}" />
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdEdit',label:'Edit',icon:'edit',tooltip:'Edit item',section:'primary',onclick:Sample.outputCommand}"></button>
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdCamera',label:'Camera',icon:'camera',tooltip:'Take a picture',section:'primary',onclick:Sample.outputCommand}"></button>
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdSettings',label:'Settings',icon:'settings',tooltip:'Settings',section:'primary',onclick:Sample.outputCommand}"></button>
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdShare',label:'Share',icon:'reshare',tooltip:'Share',section:'primary',onclick:Sample.outputCommand}"></button>
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdPrint',label:'Print',section:'secondary',onclick:Sample.outputCommand}"></button>
+
+                <button data-win-control="WinJS.UI.AppBarCommand" 
+                        data-win-options="{id:'cmdNetwork',label:'Network',section:'secondary',onclick:Sample.outputCommand}"></button>
+
+            </div>
+            <!-- ENDTEMPLATE -->
+
+        </div>
+    </div>
+</body>
+</html>

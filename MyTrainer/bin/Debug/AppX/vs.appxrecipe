@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SS-LAPTOP</Machine>
+    <WindowsUser>elenak</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2f50775a-59f3-40fa-a6f5-1d588a251473</PackageIdentityName>
+    <PackageIdentityPublisher>CN=elenak</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>06CD45098B017F32FEE80E6CD255CF71FA9668D8E7F2D5D76630C585EE5096B4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2f50775a-59f3-40fa-a6f5-1d588a251473_1.0.0.0_neutral__jkh30fbyfe3ya</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2f50775a-59f3-40fa-a6f5-1d588a251473_jkh30fbyfe3ya!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2f50775a-59f3-40fa-a6f5-1d588a251473</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=elenak</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-08-10T08:50:55.611</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2016-08-10T12:36:06.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\Templates\splitView.html">
+      <PackagePath>Templates\splitView.html</PackagePath>
+      <Modified>2016-08-10T08:23:33.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T14:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2016-08-10T11:45:30.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\backbone-min.js">
+      <PackagePath>lib\backbone-min.js</PackagePath>
+      <Modified>2016-08-10T08:40:25.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\jquery.min.js">
+      <PackagePath>lib\jquery.min.js</PackagePath>
+      <Modified>2016-08-10T08:39:02.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\underscore-min.js">
+      <PackagePath>lib\underscore-min.js</PackagePath>
+      <Modified>2016-08-10T08:39:59.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\winjs-4.0.1\js\base.js">
+      <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
+      <Modified>2016-02-28T18:17:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\winjs-4.0.1\js\ui.js">
+      <PackagePath>lib\winjs-4.0.1\js\ui.js</PackagePath>
+      <Modified>2016-02-28T18:17:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-08-10T11:21:59.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\winjs-4.0.1\css\ui-light.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-light.css</PackagePath>
+      <Modified>2016-02-28T18:17:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\lib\winjs-4.0.1\css\ui-dark.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-dark.css</PackagePath>
+      <Modified>2016-02-28T18:17:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elenak\Documents\GIT\MyTrainer\MyTrainer\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-08-10T08:50:55.452</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
